@@ -19,8 +19,8 @@ and only couple of them are suported and functional (Khaled put tools table here
  
 Whole exome sequning CNV detection tools according to [reference paper] 
 
-Title|Description|Source|Tool version|CONDA|CONDA source |Wrapper source|Wrapper owner|Wrapper version|Comment|Pull requests (Linked)|Status|Assignees
-------|------|------|------|------|------|------|------|------|------|------|------
+Title|Description|Source|Tool version|CONDA|CONDA source |Wrapper source|Wrapper owner|Wrapper version|Comment|Pull requests (Linked)|Status|Assignees|
+|------|------|------|------|------|------|------|------|------|------|------|------|
 AbsCN-seq|"AbsCN-seq is an R package for estimation of tumor purity| ploidy| and copy number variation (CNV) in next-generation sequencing data."|https://bioinformaticshome.com/tools/cnv/descriptions/AbsCN-seq.html|1|NO|||||||To add|
 Accurity|"Accurity is a software tool for inferring tumor cell ploidy| tumor purity| and absolute allelic copy numbers for somatic copy number alterations in whole-genome sequencing (WGS) data."|https://www.yfish.org/display/PUB/Accurity||NO||||| (whole exome may work too)||To add|
 ADTEx|"A tool for detection of copy number variation (CNV) in whole-genome exome data from paired or healthy tumor samples. The ADTex algorithm uses Hidden Markov Models (HMM) to predict CNV counts| genotypes| polyploidy| aneuploidy| cell contamination| and baseline shifts. The authors originally named ADTex to CoNVEX| but they changed the name because of the conflict with another tool."|https://bioinformaticshome.com/tools/cnv/descriptions/ADTEx.html|2|NO|||||||To add|
