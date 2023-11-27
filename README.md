@@ -11,10 +11,10 @@ output: html_document
 
 ## 1.  Intergrating a Copy number variant (CNV) detecting tools into Galaxy. 
 
-Although  a number of the CNV detectiong tools have been developed over the recent years (ref Khaled) only a few of them were intergated into the Galaxy
-and only couple of them are suported and functional (Khaled put tools table here).
- 
-Whole exome sequning CNV detection tools according to [reference paper] 
+Although several CNV detection tools have been developed over the recent years [Zhao et al. (2013)](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-14-S11-S1) only a few of them were integrated into the Galaxy
+and only a couple of them are supported and functional
+
+The following compilation presents a comprehensive list of tools designed for the identification of hCNV (heterogeneous Copy Number Variation) in Whole Exome Sequencing datasets. The list provides the names of these tools, their associated links, an indication of their presence on the Galaxy platform, and details regarding their maintenance status, whether they are actively supported or have become obsolete.
 
 Title|Description|Source|Tool version|CONDA|CONDA source|Wrapper source|Wrapper owner|Wrapper version|Comment|Pull requests (Linked)|Status|Assignees|
 |------|------|------|------|------|------|------|------|------|------|------|------|------|
