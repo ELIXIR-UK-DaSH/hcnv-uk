@@ -68,8 +68,16 @@ ExomeDepth| A tool for calling copy number variation (CNV) from targeted exome s
 |TITAN|TITAN is a tool for estimation of copy number variation (CNV) and loss of heterozygosity (LOH) in whole-genome sequencing data consisting of clonal cell populations. The TITAN algorithm uses hidden Markov model (HMM). Alternative name: TitanCNA|https://bioinformaticshome.com/tools/cnv/descriptions/TITAN.html|1.22.0|Yes|https://anaconda.org/dranew/bioconductor-titan||||can also work on WES data||To add|
 |VarScan2|A platform-independent mutation caller for targeted, exome, and whole-genome resequencing data generated on Illumina, SOLiD, Life/PGM, Roche/454, and similar instruments.|https://sourceforge.net/projects/varscan/|2.4.0|NO||https://toolshed.g2.bx.psu.edu/repository|"yhoogstrate"|2.4.2|two tools are in the toolshed https://toolshed.g2.bx.psu.edu/repository||Neglected|
 |VCF2CNA|VCF2CNA is a tool to detect copy number variation (CNV) in Tumor/Germline Variant Call Format (VCF) files. The VCF2CNA algorithm also computes tumor purity estimates for samples.|https://bioinformaticshome.com/tools/cnv/descriptions/VCF2CNA.html||NO|||||||To add|
-|XCAVATOR|A tool for detecting copy number variation (CNV) in whole-genome exome sequencing data|https://sourceforge.net/projects/xcavator/||NO|||||||To add|
-|XHMM|Recover information on CNVs from targeted exome sequence data by running depth of coverage calculations, data normalization, CNV calling,
+|XCAVATOR|a tool for detecting copy number variation (CNV) in whole-genome exome sequencing data|https://sourceforge.net/projects/xcavator/||NO||||||To add|
+|XHMM|Recover information on CNVs from targeted exome sequence data by running depth of coverage calculations, data normalization, CNV calling, and statistical genotyping|https://github.com/RRafiee/XHMM||NO||||||To add|
+|WISARD|WISARD, a Workbench for Integrated Superfast Association study with Related Data, is a statistical analysis toolkit for the analysis of large-scale single nucleotide polymorphism (SNP), copy number variation (CNV), and next-generation sequencing (NGS) data. With WISARD, you can analyze related and unrelated samples. The code is optimized for running in multi-core CPUs.|https://bioinformaticshome.com/tools/cnv/descriptions/WISARD.html|1.3.2|NO||||||To add|
+|Manta|Manta calls structural variants (SVs) and indels from mapped paired-end sequencing reads. It is optimized for the analysis of germline variation in small sets of individuals and somatic variation in tumor/normal sample pairs.|https://github.com/Illumina/manta|v1.6.0 |Yes|https://anaconda.org/bioconda/manta|https://toolshed.g2.bx.psu.edu/repository|artbio|1.6+|||Up-to-date|
+|CLAMMS|CLAMMS is a scalable tool for detecting common and rare copy number variants from whole-exome sequencing data.|https://github.com/rgcgithub/clamms|1.1|NO||||||To add|
+|SeqCNV (check the tool link again)|a novel method for identification of copy number variations in targeted next-generation sequencing data|https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-017-1566-3#Sec9||NO||||||To add|
+|Ulysses|accurate detection of low-frequency structural variations in large insert-size sequencing libraries|http://www.lcqb.upmc.fr/ulysses/|1|NO||||||To add|
+|CNV-RF|Random Forest–Based Copy Number Variation Detection Method Using Next-Generation Sequencing|https://github.com/getiria-onsongo/tso_cnv/tree/cnv_paper|1.2.2|NO||||||To add|
+|GATK gCNV|Precise common and rare germline CNV calling with |GATK|https://aacrjournals.org/cancerres/article/78/13_Supplement/2287/626564||NO||||||To add|
+
 
  
  
