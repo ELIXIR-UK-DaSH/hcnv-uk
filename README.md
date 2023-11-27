@@ -5,9 +5,6 @@ date: "11/04/2022"
 output: html_document
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
 
 # WP3 - Exploitation of the datasets by the Galaxy Community. 
 
@@ -19,15 +16,15 @@ and only couple of them are suported and functional (Khaled put tools table here
  
 Whole exome sequning CNV detection tools according to [reference paper] 
 
-Title|Description|Source|Tool version|CONDA|CONDA source|Wrapper source|Wrapper owner|Wrapper version|Comment|Pull requests (Linked)|Status|Assignees
-------|------|------|------|------|------|------|------|------|------|------|------|------
-AbsCN-seq|"AbsCN-seq is an R package for estimation of tumor purity, ploidy, and copy number variation (CNV) in next-generation sequencing data."|https://bioinformaticshome.com/tools/cnv/descriptions/AbsCN-seq.html|1|NO|||||||To add|
-Accurity|"Accurity is a software tool for inferring tumor cell ploidy, tumor purity, and absolute allelic copy numbers for somatic copy number alterations in whole-genome sequencing (WGS) data."|https://www.yfish.org/display/PUB/Accurity||NO||||| (whole exome may work too)||To add|
-ADTEx|"A tool for detection of copy number variation (CNV) in whole-genome exome data from paired or healthy tumor samples. The ADTex algorithm uses Hidden Markov Models (HMM) to predict CNV counts, genotypes, polyploidy, aneuploidy, cell contamination, and baseline shifts. The authors originally named ADTex CoNVEX, but they changed the name because of the conflict with another tool."|https://bioinformaticshome.com/tools/cnv/descriptions/ADTEx.html|2|NO|||||||To add|
-aCNViewer|"aCNViewer is a tool for visualization of copy number variation (CNV) and loss of heterozygosity (LOH) in tumor samples. aCNViewer uses the Docker application. Requires: R, Python, Mode, Affymetrix power tools, Ascat, sequenza, and ggplot2."|https://bioinformaticshome.com/tools/cnv/descriptions/aCNViewer.html|2.2|NO|||||||To add|
-Bamgineer|A tool to simulate haplotype-phased allele-specific copy number variation (CNV) into a Binary Alignment Mapping (BAM) and cancer CNVs in exome and targeted cell-free DNA sequencing data.|https://bioinformaticshome.com/tools/cnv/descriptions/Bamgineer.html|2|NO|||||||To add|
-BubbleTree|"BubbleTree is an R package for the analysis of tumor samples in next-generation sequencing (NGS) data. The BubbleTree algorithm can estimate cancer-causing cell impurity, ploidy, clonality, and allele-specific copy number variation (CNV). It displays the results in a graph format. The Authors claim that BubbleTree outperforms THetA2, ABSOLUTE, AbsCN-seq, and ASCAT tools."|https://bioinformaticshome.com/tools/cnv/descriptions/BubbleTree.html|2.14.0|Yes|https://anaconda.org/search?q=BubbleTree||||||To add|
-CANOES|CANOES is a tool for the detection of copy number variation (CNV) in whole-genome exome sequencing data. The CANOES algorithm uses the negative binomial distribution to model read counts and a regression-based method on user-selected reference samples.|https://bioinformaticshome.com/tools/cnv/descriptions/CANOES.html|*** the tool is not currently|NO|||||||To add|
+Title|Description|Source|Tool version|CONDA|CONDA source|Wrapper source|Wrapper owner|Wrapper version|Comment|Pull requests (Linked)|Status|Assignees|
+|------|------|------|------|------|------|------|------|------|------|------|------|------|
+|AbsCN-seq|"AbsCN-seq is an R package for estimation of tumor purity, ploidy, and copy number variation (CNV) in next-generation sequencing |data."|https://bioinformaticshome.com/tools/cnv/descriptions/AbsCN-seq.html|1|NO|||||||To add|
+|Accurity|"Accurity is a software tool for inferring tumor cell ploidy, tumor purity, and absolute allelic copy numbers for somatic copy number alterations in whole-genome sequencing |(WGS) data."|https://www.yfish.org/display/PUB/Accurity||NO||||| (whole exome may work too)||To add|
+|ADTEx|"A tool for detection of copy number variation (CNV) in whole-genome exome data from paired or healthy tumor samples. The ADTex algorithm uses Hidden Markov Models (HMM) to predict CNV counts, genotypes, polyploidy, aneuploidy, cell contamination, and baseline shifts. The authors originally named ADTex CoNVEX, but they changed the name because of the conflict with another tool."|https://bioinformaticshome.com/tools/cnv/descriptions/ADTEx.html|2|NO|||||||To add|
+|aCNViewer|"aCNViewer is a tool for visualization of copy number variation (CNV) and loss of heterozygosity (LOH) in tumor samples. aCNViewer uses the Docker application. Requires: R, Python, Mode, Affymetrix power tools, Ascat, sequenza, and ggplot2."|https://bioinformaticshome.com/tools/cnv/descriptions/aCNViewer.html|2.2|NO|||||||To add|
+|Bamgineer|A tool to simulate haplotype-phased allele-specific copy number variation (CNV) into a Binary Alignment Mapping (BAM) and cancer CNVs in exome and targeted cell-free DNA sequencing data.|https://bioinformaticshome.com/tools/cnv/descriptions/Bamgineer.html|2|NO|||||||To add|
+|BubbleTree|"BubbleTree is an R package for the analysis of tumor samples in next-generation sequencing (NGS) data. The BubbleTree algorithm can estimate cancer-causing cell impurity, ploidy, clonality, and allele-specific copy number variation (CNV). It displays the results in a graph format. The Authors claim that BubbleTree outperforms THetA2, ABSOLUTE, AbsCN-seq, and ASCAT tools."|https://bioinformaticshome.com/tools/cnv/descriptions/BubbleTree.html|2.14.0|Yes|https://anaconda.org/search?q=BubbleTree||||||To add|
+|CANOES|CANOES is a tool for the detection of copy number variation (CNV) in whole-genome exome sequencing data. The CANOES algorithm uses the negative binomial distribution to model read counts and a regression-based method on user-selected reference samples.|https://bioinformaticshome.com/tools/cnv/descriptions/CANOES.html|*** the tool is not currently|NO|||||||To add|
 
  
  
