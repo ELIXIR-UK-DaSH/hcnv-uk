@@ -1,5 +1,5 @@
 ---
-title: "hCNV Project Report (ELIXIR UK)"
+title: "hCNV Tools : Compatibility and Support in Galaxy Platform"
 author: "Khaled Jumah, Krzysztof Poterlowicz" 
 date: "11/04/2022"
 output: html_document
@@ -7,10 +7,9 @@ theme: jekyll-theme-cayman
 ---
 
 
-# Exploitation of the datasets by the Galaxy Community. 
 
 
-## 1.  Intergrating a Copy number variant (CNV) detecting tools into Galaxy. 
+# Intergrating a Copy number variant (CNV) detecting tools into Galaxy. 
 
 Despite the development of numerous CNV detection tools over recent years, only a limited number have been integrated into the Galaxy platform, with even fewer remaining fully supported and functional [Zhao et al. (2013)](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-14-S11-S1). 
 
@@ -91,7 +90,7 @@ The following compilation provides a thorough overview of tools specifically des
 
 This document presents a case study on integrating [CNVkit](https://cnvkit.readthedocs.io/en/stable/) into Galaxy, following the steps outlined in the tutorial above.
 
-## 2. Benchmarking hCNV Detection Tools
+# Benchmarking hCNV Detection Tools
 
 Selecting a tool for analysis requires an understanding of each tool's CNV detection accuracy, execution time, and infrastructure requirements.
 
