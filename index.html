@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HCNV-UK GitHub Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/4.0.0/github-markdown.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+        }
+        .markdown-body {
+            max-width: 800px;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <article class="markdown-body">
+        <h1>HCNV-UK Project</h1>
+        <p>Welcome to the GitHub Pages for the HCNV-UK project. Below is a summary of the README content:</p>
+        <div id="readme-content">
+            <!-- Readme content will go here -->
+        </div>
+    </article>
+    <script>
+        // Load README.md using GitHub API (requires repository to be public)
+        async function loadReadme() {
+            try {
+                const response = await fetch('https://raw.githubusercontent.com/elixir-uk/hcnv-uk/main/README.md');
+                if (response.ok) {
+                    const markdownText = await response.text();
+                    document.getElementById('readme-content').innerText = markdownText;
+                } else {
+                    document.getElementById('readme-content').innerText = 'Failed to load README.md content.';
+                }
+            } catch (error) {
+                document.getElementById('readme-content').innerText = 'An error occurred while loading the README.md content.';
+            }
+        }
+
+        loadReadme();
+    </script>
+</body>
+</html>
