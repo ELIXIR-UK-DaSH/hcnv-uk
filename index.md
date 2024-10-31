@@ -1,5 +1,5 @@
 ---
-title: "hCNVbundles project- ELIXIR UK"
+title: "hCNV Project Report (ELIXIR UK)"
 author: "Khaled Jumah, Krzysztof Poterlowicz" 
 date: "11/04/2022"
 output: html_document
